@@ -1,4 +1,4 @@
-### Basic Transfomer Encoder only model for classification. Trying Transformer to replace ResidualBlocks in Splice prediction.
+### Basic Transfomer Encoder only model for classification. Trying Transformer to replace conv1d in splice site prediction.
 import torch
 from torch import nn
 from torch.utils.data import Dataset
