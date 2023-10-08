@@ -64,6 +64,3 @@ def MetricsEvaluate(inF='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank40.tfds',
 
 
 MetricsEvaluate(inF='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank5000.tfds', inDir='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank5000_NWD4_NRB4_NF32_SMchr_LR0.001_LFcc2d_NE10_SavedModel')
-MetricsEvaluate(inF='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank1000.tfds', inDir='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank1000_NWD3_NRB4_NF32_SMchr_LR0.001_LFcc2d_NE10_SavedModel')
-MetricsEvaluate(inF='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank200.tfds', inDir='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank200_NWD2_NRB4_NF32_SMchr_LR0.001_LFcc2d_NE10_SavedModel')
-MetricsEvaluate(inF='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank40.tfds', inDir='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank40_NWD1_NRB4_NF32_SMchr_LR0.001_LFcc2d_NE10_SavedModel')

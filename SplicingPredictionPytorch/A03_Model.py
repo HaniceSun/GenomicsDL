@@ -228,5 +228,5 @@ def load_weights_predict(inF='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank5000
     print(val_metrics)
 
 
-fit(inF='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank5000.txt', epochs=10, NWD=NWD4)
-load_weights_predict('Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank40.txt')
+fit(inF='Homo_sapiens.GRCh38.110.bed12_seq_nt5000_flank40.txt', epochs=10, NWD=NWD4)
+load_weights_predict('Homo_sapiens.GRCh38.110.bed12_seq_nt40_flank40.txt')
