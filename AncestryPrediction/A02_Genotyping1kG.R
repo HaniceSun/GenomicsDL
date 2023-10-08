@@ -47,12 +47,6 @@ ggplot() +
 ### Outlier threshold based on histogram
 OutlierThreshold = 0.5 
 
-#plot_grid(plotlist = lapply(7:10, function(k) {
-#  plot(obj.svd, type = "scores", scores = 2 * k - 1:0, coeff = 0.6) +
-#    aes(color = S) +
-#    scale_colour_viridis_c()
-#}), scale = 0.95)
-
 plot_grid(plotlist = lapply(7:10, function(k) {
   plot(obj.svd, type = "scores", scores = 2 * k - 1:0, coeff = 0.6) +
     aes(color = S > OutlierThreshold) + 
