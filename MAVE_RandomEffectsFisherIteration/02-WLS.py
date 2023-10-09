@@ -1,4 +1,3 @@
-# for lib1 only
 import statsmodels
 import statsmodels.api as sm
 import pandas as pd
